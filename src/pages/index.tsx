@@ -9,7 +9,7 @@ export async function getServerSideProps(ctx: any) {
   };
 }
 
-export default function Home(props) {
+export default function Home(props: any) {
   return (
     <>
       <h1>テストなり</h1>
